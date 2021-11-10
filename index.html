@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>e_commerce</title>
+    <style>
+      .header{
+        background-color: rgb(2, 1,61);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    
+
+    <nav class="mc-navbar navbar navbar-expand-lg fixed-top navbar-dark pe-3 w-100">
+        <div class="container-fluid">
+          <a href="#" class=" navbar-brand text-uppercase mx-3 py-3 fw-bolder">APC_TRAINING</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"   aria-labelledby="navbar" id="navbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item pe-3">
+                <a href="#" class="nav-link active" aria-current="page">acceuil</a>
+              </li>
+              <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Centre </a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                    <li><a href="Dep_M-et-A.php" class="dropdown-item">Département de la Mefou-et-Akono</a></li>
+                    <li><a href="Dep_Mfoudi.php" class="dropdown-item"> Département du Mfoudi</a></li>
+                    <li><a href="Dep_N-et-K.php" class="dropdown-item">Département du Nyong-et-Kelle</a></li>
+                    <li><a href="Dep_N-et-M.php" class="dropdown-item">Déepartement du Nyong-et-Mfoumou</a></li>
+                </ul>
+                </li>
+                <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Centre </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                      <li><a href="Dep_M-et-A.php" class="dropdown-item">Département de la Mefou-et-Akono</a></li>
+                      <li><a href="Dep_Mfoudi.php" class="dropdown-item"> Département du Mfoudi</a></li>
+                      <li><a href="Dep_N-et-K.php" class="dropdown-item">Département du Nyong-et-Kelle</a></li>
+                      <li><a href="Dep_N-et-M.php" class="dropdown-item">Déepartement du Nyong-et-Mfoumou</a></li>
+                  </ul>
+                  </li>
+                  <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Centre </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="Dep_M-et-A.php" class="dropdown-item">Département de la Mefou-et-Akono</a></li>
+                        <li><a href="Dep_Mfoudi.php" class="dropdown-item"> Département du Mfoudi</a></li>
+                        <li><a href="Dep_N-et-K.php" class="dropdown-item">Département du Nyong-et-Kelle</a></li>
+                        <li><a href="Dep_N-et-M.php" class="dropdown-item">Déepartement du Nyong-et-Mfoumou</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Centre </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                          <li><a href="Dep_M-et-A.php" class="dropdown-item">Département de la Mefou-et-Akono</a></li>
+                          <li><a href="Dep_Mfoudi.php" class="dropdown-item"> Département du Mfoudi</a></li>
+                          <li><a href="Dep_N-et-K.php" class="dropdown-item">Département du Nyong-et-Kelle</a></li>
+                          <li><a href="Dep_N-et-M.php" class="dropdown-item">Déepartement du Nyong-et-Mfoumou</a></li>
+                      </ul>
+                      </li>
+              <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Centre </a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                    <li><a href="Dep_M-et-A.php" class="dropdown-item">Département de la Mefou-et-Akono</a></li>
+                    <li><a href="Dep_Mfoudi.php" class="dropdown-item"> Département du Mfoudi</a></li>
+                    <li><a href="Dep_N-et-K.php" class="dropdown-item">Département du Nyong-et-Kelle</a></li>
+                    <li><a href="Dep_N-et-M.php" class="dropdown-item">Déepartement du Nyong-et-Mfoumou</a></li>
+                </ul>
+                </li>
+                <li class="nav-item dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Littoral</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="Dep_Wouri.php" class="dropdown-item">Département du Wouri</a></li>
+                        <li><a href="Dep_sanaga.php" class="dropdown-item">Département de la Sanaga Maritime</a></li>
+                        <li><a href="Dep_Nkam.php" class="dropdown-item">Département du Nkam</a></li>
+                        <li><a href="Dep_Moungo.php" class="dropdown-item">Département du Moungo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région de l'Ouest</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="Dep_Menoua.php" class="dropdown-item">Département de la Menoua</a></li>
+                        <li><a href="Dep_Mifi.php" class="dropdown-item">Département de la Mifi</a></li>
+                        <li><a href="Dep_Nde.php" class="dropdown-item">Département du Nde</a></li>
+                        <li><a href="Dep_Bamboutos.php class="dropdown-item"Département des Bamboutos</a></li>              
+                        <li><a href="Dep_H-K.php" class="dropdown-item">Département du Haut Nkam </a></li>
+                        <li><a href="Dep_Koung-Khi.php" class="dropdown-item"> Département de koung-khi</a></li>
+                        <li><a href="Dep_H-P.php" class="dropdown-item">Département des Hauts Plateaux</a></li>
+                        <li><a href="Dep_Noun.php" class="dropdown-item"> Département du Noun</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région de l'Est</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="#" class="dropdown-item">Lycée scientifique de Bertoua</a></li>
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue de Bertoua</a></li>
+                        <li><a href="#" class="dropdown-item">Collège Teerenstra de Bertoua</a></li>
+                    </ul>
+                </li>
+    
+                <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Sud</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue d'Ebolowa</a></li>
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue de Kribi</a></li>
+                        <li><a href="#" class="dropdown-item">Collège Classique et</a></li>
+                    </ul>
+                </li>
+               
+                <li class="nav- pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Sud-Ouest</a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="#" class="dropdown-item">Collège Sonara de Limbé</a></li>
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue de Molyko</a></li>
+                    </ul>
+                </li>
+               
+                <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région l'Extrême Nord</a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue de Maroua</a></li>
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue de Maroua</a></li>
+                        <li><a href="#" class="dropdown-item">Collège Jeacques de Bernou</a></li>
+                    </ul>
+                </li>
+               
+               
+                <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Nord</a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="#" class="dropdown-item">Lycée Classique et Moderne de Garoua</a></li>
+                        <li><a href="#" class="dropdown-item">Collège Sainte Thérèse de Garoua</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région du Nord-Ouest</a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue de Down Town Bamenda</a></li>
+                        <li><a href="#" class="dropdown-item">Lycée Bilingue de Bayelle-Nken</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item pe-2 fs-10 dropdown"><a href="#" class="nav-link active dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Région de L'Adamaoua</a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a href="#" class="dropdown-item">Lycée Classique et Moderne de Ngaoundéré</a></li>
+                        <li><a href="#" class="dropdown-item">Collège la Victoire</a></li>
+                        <li><a href="#" class="dropdown-item">Collège Protestant</a></li>
+                    </ul>
+                </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="nav-link">les classiques</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a href="#" class="btn btn-order" rounded="0">Passer la commande</a>
+              </li>
+            </ul>
+            <!-- <form  class="d-flex">
+              <input type="search" class="form-control me-2" placeholder="recherche" aria-label="recherche">
+              <button class="btn btn-outline-success" type="submit">recherche</button>
+            </form> -->
+            <!-- <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-2">
+                <a href="#" class="nav-link">seconnecter</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-success">s'inscrir</a>
+              </li>
+            </ul> -->
+  
+          </div>
+        </div>
+    </nav>
+    <section class="banner d-flex justify-content-center align-items-center pt-5">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6 text-white ">
+            <div class="container">
+              <b>
+                  <i>
+                       <h1 class="text-capitalize title-niv- il">apc_training <br> Faire d'internet un outil de développement des compétences</h1>
+                  </i>
+              </b>	 
+         </div>
+          <div>
+          
+              <p>
+               apc_training est une plate forme
+                   <!-- <img src="images/ima1.jpeg" > -->
+               éducative qui met à la disposition des élèves des ressources nécessaires au développement 
+               des compétences qui vont assurer non seulement leur succès aux examens officiels mais aussi 
+               et surtout leur insertion socio-professionelle. Il s'ajit entre autres des sujets d'évaluations sommatives
+                des établissements de renom et leurs corrigés detaillés, des cours, des travaux dirigés des fascicules
+               et tutoriels éducatifs.                      
+               </p>
+          </div>
+          </div>
+          <div class="col-md-6">
+         
+            <aside>
+              <div>
+                   <div class=" col-md-8 pub-des container-fluid ">
+                    <form  class="d-flex">
+                      <input type="search" class="form-control me-2" placeholder="recherche" aria-label="recherche">
+                      <button class="btn btn-success" type="submit">recherche</button>
+                    </form>
+                    <!-- <img src="images/d (7).jpg" class="img-fluid size-img" alt=""> 
+                    -->
+                    <div id="carouselExampleIndicators" class="carousel slide  text-capitalize py-5 redresse banner-des" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/d (1).jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/d (8).jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/d (23).jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/d (6).jpg" class="d-block w-100" alt="">
+                        </div>
+                       
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">next</span>
+                      </button>
+                    </div>
+                  </div>
+              </div>
+              <p><b><i>Nos contacts</i></b></p>
+              <div class="lien_contact">
+              
+              <div class="aside_contact">
+                  
+                   <p><img src="images/google.png" class="google"><img src="images/whats.jpeg" class="what"><img src="images/face.png" class="face"><img src="images/telegramme.jpeg" class="tele"></p>
+              </div>
+              </div>
+          </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="article serif py-5">
+      <div class="container">
+        <div class="row">
+          <div class="card mb-3 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/d (10).jpg" class="img-fluid size-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">bien</h5>
+                  <p class="card-text">lorem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illum omnis quasi beatae ullam quod quaerat blanditiis cum pariatur aspernatur soluta, quam perferendis dicta autem nobis, quia iusto, fugiat amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, atque animi saepe dolorum fuga unde sequi quaerat culpa odit veritatis placeat assumenda reprehenderit tempore, ut autem accusantium omnis delectus quasi?</p>
+                  <p class="card-text"><a href="#" class="text-muted btn">Lorem, ipsum dolor.</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card my-3 border-0 rounded-0">
+            <div class="row">
+              
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">bien</h5>
+                  <p class="card-text">lorem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illum omnis quasi beatae ullam quod quaerat blanditiis cum pariatur aspernatur soluta, quam perferendis dicta autem nobis, quia iusto, fugiat amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, atque animi saepe dolorum fuga unde sequi quaerat culpa odit veritatis placeat assumenda reprehenderit tempore, ut autem accusantium omnis delectus quasi?</p>
+                  <p class="card-text"><a href="#" class="text-muted btn">Lorem, ipsum dolor.</a></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <!-- <img src="images/d (7).jpg" class="img-fluid size-img" alt=""> 
+                -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/d (1).jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/d (8).jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/d (23).jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/d (6).jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/d (12).jpg" class="d-block w-100" alt="">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card md-3 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/d (22).jpg" class="img-fluid size-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">bien</h5>
+                  <p class="card-text">lorem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illum omnis quasi beatae ullam quod quaerat blanditiis cum pariatur aspernatur soluta, quam perferendis dicta autem nobis, quia iusto, fugiat amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, atque animi saepe dolorum fuga unde sequi quaerat culpa odit veritatis placeat assumenda reprehenderit tempore, ut autem accusantium omnis delectus quasi?</p>
+                  <p class="card-text"><a href="#" class="text-muted btn">Lorem, ipsum dolor.</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mc-menu py-5 serif ">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center text-light serif">nos varietés</h3>
+          <div class="card bg-transparent text-center mb-4">
+            <div class="card-header redresse fs-4">
+              <ul class="nav nav-tabs justify-content-center card-header-tabs">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active" aria-current="true">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-light" aria-current="true">link</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-light" >Disabled</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body text-light">
+              <h5 class="card-title">Titre</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil natus ipsam hic quod delectus!</p>
+          
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col ">
+            <div class="card ">
+              <img src="images/d (18).jpg" class="card-img-top img-fluid " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/d (12).jpg" class="card-img-top img-fluid " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-sm-none d-md-block ">
+            <div class="card">
+              <img src="images/d (23).jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-sm-none d-md-block ">
+            <div class="card">
+              <img src="images/d (27).jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mc-carousel serif bg-dark text-light text-center py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-uppercase">les meilleurs produits</h1>
+          <div class="col pb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis iure cum earum perferendis! Rem incidunt fugit ipsam, dolorem doloribus repudiandae, adipisci in facere culpa labore, illum a beatae pariatur?</div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/d (25).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/d (1).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/d (4).jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="mc-form py-5">
+      <div class="container">
+        <h2 class="serif text-center text-light mb-4 justify-content-lg-center">Passer une commande</h2>
+        <form>
+          <div class="row">
+            <div class="col-md-6 col-sm">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                <input type="text" class="form-control" placeholder="votre nom">
+              </div>
+              <div class="input-group mb-3">
+                <label for="inputG" class="input-group-text"><i class="fas fa-sort"></i></label>
+                <select  id="inputG" class="form-select">
+                  <option selected>choisir un menu</option>
+                  <option value="1">fiacre</option>
+                  <option value="2">Produit 2</option>
+                  <option value="3">produit 3</option>
+                </select>
+              </div>
+              <div class="input-group mb-3">
+                <label for="inputG" class="input-group-text"><i class="fas fa-sort-numeric-up-alt"></i></label>
+                <select  id="inputG" class="form-select">
+                  <option selected>nombre de personne</option>
+                  <option value="1">fiacre</option>
+                  <option value="2">Produit 2</option>
+                  <option value="3">produit 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="votre email">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+              </div>
+              <div class="input-group mb-3">
+                <input type="number" class="form-control" placeholder="numero de téléphone">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="adresse zone Ex:foreké 45">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">préciser le nombre de personne</span>
+              <input type="text" class="form-control" placeholder="Ex: 14">
+            </div>
+            <div class="input-group">
+              <span class="input-group-text" >autre information</span>
+              <textarea  class="form-control bg" aria-label="with textarea"></textarea>
+    
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl){
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+</script>
+  </body>
+</html>
